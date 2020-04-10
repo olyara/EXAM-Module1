@@ -280,7 +280,7 @@ a:hover {
             border-top: 1px solid #fff;
           }
           &:focus {
-            transform: scaleX(1.05);
+            opacity: 0.5;
           }
         }
       }
@@ -456,6 +456,7 @@ a:hover {
 }
 // HOW END
 
+// PlACES+PLACES-REVERSE
 .places {
   background-image: url(../images/spain-villa.png);
   background-position: center;
@@ -514,6 +515,9 @@ a:hover {
   }
 }
 
+//PlACES+PLACES-REVERSE END
+
+// FEEDBACK
 .feedback {
   background-image: url(../images/tourist-bg.png);
   background-position: center;
@@ -604,6 +608,9 @@ a:hover {
   }
 }
 
+// FEEDBACK END
+
+// FOOTER
 .footer {
   background-color: #232323;
   padding: 120px 0 50px;
@@ -679,3 +686,4 @@ a:hover {
     }
   }
 }
+// FOOTER END

@@ -341,8 +341,7 @@ a:hover {
 }
 
 .menu__wrapper .menu__ul .menu__li .menu__link:focus {
-  -webkit-transform: scaleX(1.05);
-          transform: scaleX(1.05);
+  opacity: 0.5;
 }
 
 .why-us {
