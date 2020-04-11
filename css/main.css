@@ -109,11 +109,11 @@ a:hover {
 .header__title {
   font-weight: 700;
   font-size: 48px;
-  text-align: center;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 4px;
   margin: 0 0 6px 0;
+  text-align: center;
 }
 
 @media screen and (max-width: 425px) {
@@ -197,6 +197,7 @@ a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 425px) {
@@ -296,12 +297,12 @@ a:hover {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
   .menu__wrapper .menu__logo {
     margin: 0 0 10px 0;
+    text-align: center;
   }
 }
 
