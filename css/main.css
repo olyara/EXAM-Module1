@@ -256,19 +256,13 @@ a:hover {
   padding: 29px 0 17px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 770px) {
   .menu {
     padding: 17px 0 17px;
   }
 }
 
 @media screen and (max-width: 530px) {
-  .menu {
-    padding: 17px 0 7px;
-  }
-}
-
-@media screen and (max-width: 510px) {
   .menu {
     padding: 10px 0 0;
   }
@@ -302,6 +296,7 @@ a:hover {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -358,8 +353,8 @@ a:hover {
 }
 
 .menu__wrapper .menu__ul .menu__li .menu__link:hover {
-  padding-bottom: 3px;
-  border-bottom: 1px solid #fff;
+  padding-top: 3px;
+  border-top: 1px solid #fff;
 }
 
 .menu__wrapper .menu__ul .menu__li .menu__link:focus {
@@ -375,7 +370,7 @@ a:hover {
 
 @media screen and (max-width: 640px) {
   .why-us {
-    padding: 60px 0 60px;
+    padding: 50px 0 50px;
   }
 }
 
@@ -495,7 +490,7 @@ a:hover {
 
 @media screen and (max-width: 640px) {
   .why-us__wrapper .why-us__col-text .why-us__article {
-    margin: 50px 30px 42px;
+    margin: 20px 30px 42px;
   }
 }
 
@@ -517,7 +512,7 @@ a:hover {
 
 @media screen and (max-width: 820px) {
   .how {
-    padding: 25px 27px 20px;
+    padding: 50px 27px 30px;
   }
 }
 
@@ -559,7 +554,7 @@ a:hover {
   height: 88px;
   background-image: url(../images/Shape123.png);
   position: absolute;
-  top: -60px;
+  top: -54px;
   left: -270px;
 }
 
